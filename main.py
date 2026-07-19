@@ -1,11 +1,13 @@
 from student import student_menu
 from attendance import attendance_menu
+from marks import marks_menu
 
 while True:
     print("\n===== Student Management System =====")
     print("1. Student Module")
     print("2. Attendance Module")
-    print("3. Exit")
+    print("3. Marks Module")
+    print("4. Exit")
 
     choice = input("Enter Choice: ")
 
@@ -16,6 +18,9 @@ while True:
         attendance_menu()
 
     elif choice == "3":
+        marks_menu()
+
+    elif choice == "4":
         print("Thank You")
         break
 

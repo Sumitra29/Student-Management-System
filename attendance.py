@@ -2,7 +2,8 @@ import json
 import shutil
 import csv
 import datetime
-from student import *
+#from student import *
+from student import load_students #def load_students():
 
 # Attendance CRUD
 def mark_attendance(attendance):

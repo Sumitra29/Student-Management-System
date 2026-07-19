@@ -1,0 +1,34 @@
+[
+    {
+        "rollno": 1,
+        "subjects": {
+            "Python": 25.0,
+            "Math": 25.0,
+            "English": 25.0
+        }
+    },
+    {
+        "rollno": 2,
+        "subjects": {
+            "Python": 21.0,
+            "Math": 19.0,
+            "English": 21.0
+        }
+    },
+    {
+        "rollno": 3,
+        "subjects": {
+            "Python": 16.0,
+            "Math": 15.0,
+            "English": 25.0
+        }
+    },
+    {
+        "rollno": 4,
+        "subjects": {
+            "Python": 25.0,
+            "Math": 25.0,
+            "English": 25.0
+        }
+    }
+]
