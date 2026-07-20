@@ -2,13 +2,16 @@ from student import student_menu
 from attendance import attendance_menu
 from marks import marks_menu
 from gpa import gpa_menu
+from subjects import subject_menu
+
 while True:
     print("\n===== Student Management System =====")
     print("1. Student Module")
     print("2. Attendance Module")
     print("3. Marks Module")
     print("4. GPA Module")
-    print("5. Exit")
+    print("5. Subject Module")
+    print("6. Exit")
 
     choice = input("Enter Choice: ")
 
@@ -25,6 +28,9 @@ while True:
         gpa_menu()
 
     elif choice == "5":
+        subject_menu()
+
+    elif choice == "6":
         print("Thank You")
         break
 

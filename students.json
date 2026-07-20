@@ -2,21 +2,33 @@
     {
         "name": "Sumitra",
         "grade": "1",
-        "rollno": 1
+        "rollno": 1,
+        "subjects": [
+            "CS101"
+        ]
     },
     {
         "name": "Su",
         "grade": "1",
-        "rollno": 2
+        "rollno": 2,
+        "subjects": [
+            "CS101"
+        ]
     },
     {
         "name": "Sumi",
         "grade": "1",
-        "rollno": 3
+        "rollno": 3,
+        "subjects": [
+            "CS101"
+        ]
     },
     {
         "name": "Sumit",
         "grade": "1",
-        "rollno": 4
+        "rollno": 4,
+        "subjects": [
+            "CS101"
+        ]
     }
 ]

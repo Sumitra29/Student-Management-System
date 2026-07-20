@@ -341,11 +341,11 @@ def load_marks():
         return marks
 
     except FileNotFoundError:
-        print("No attendance records found.")
+        print("No marks records found.")
         return []
 
     except json.JSONDecodeError:
-        print("Error: attendance.json is empty or corrupted.")
+        print("Error: marks.json is empty or corrupted.")
         return []
         
 # Bcakup

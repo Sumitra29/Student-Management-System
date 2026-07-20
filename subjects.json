@@ -1,0 +1,12 @@
+[
+    {
+        "subject_code": "CS101",
+        "subject_name": "Python",
+        "credits": 4
+    },
+    {
+        "subject_code": "CS102",
+        "subject_name": "C",
+        "credits": 5
+    }
+]
