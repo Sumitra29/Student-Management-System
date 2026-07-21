@@ -5,6 +5,8 @@ from gpa import gpa_menu
 from subjects import subject_menu
 from teachers import teacher_menu
 from users import authentication_menu
+from system_logs import logging_menu
+from reports import reports_menu
 
 while True:
     print("\n===== Student Management System =====")
@@ -15,7 +17,9 @@ while True:
     print("5. Subject Module")
     print("6. Teacher Module")
     print("7. Authentication Module")
-    print("8. Exit")
+    print("8. Logging Module")
+    print("9. Reports Module")
+    print("10. Exit")
 
     choice = input("Enter Choice: ")
 
@@ -41,6 +45,12 @@ while True:
         authentication_menu()
 
     elif choice == "8":
+        logging_menu()
+
+    elif choice == "9":
+        reports_menu()
+
+    elif choice == "10":
         print("Thank You")
         break
 

@@ -19,5 +19,19 @@
         "password": "dddcf6925bdf77e0dbf5a42ce46096562543fdb3b37eef669975d5e18a9bf9f1",
         "role": "Student",
         "created_at": "2026-07-21"
+    },
+    {
+        "username": "angel",
+        "email": "sumitra.2913@gmail.com",
+        "password": "a6b46dd0d1ae5e86cbc8f37e75ceeb6760230c1ca4ffbcb0c97b96dd7d9c464b",
+        "role": "Admin",
+        "created_at": "2026-07-21"
+    },
+    {
+        "username": "sam",
+        "email": "sam@gmail.com",
+        "password": "e96e02d8e47f2a7c03be5117b3ed175c52aa30fb22028cf9c96f261563577605",
+        "role": "Admin",
+        "created_at": "2026-07-21"
     }
 ]

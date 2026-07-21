@@ -14,6 +14,9 @@ from getpass import getpass
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+from system_logs import load_logs, log_login, log_activity, log_error
+#for recording 
+
 def load_users():
     try:
         with open("users.json", "r") as file:
@@ -124,6 +127,9 @@ def register(users):
 
     print("Registration Successful.")
 
+    logs = load_logs()
+    log_activity(logs, username, "Registered New User")
+
 logged_in_user = None
 
 def login(users):
@@ -148,12 +154,15 @@ def login(users):
         ):
 
             logged_in_user = user
-
+            logs = load_logs()
+            log_login(logs, username, "Login Successful")
             print("\nLogin Successful.")
             print(f"Welcome {user['username']}")
             print(f"Role : {user['role']}")
-
             return
+
+    logs = load_logs()
+    log_error(logs, username, "Invalid Username or Password")
 
     print("Invalid Username or Password.")
 
@@ -164,6 +173,9 @@ def logout():
     if logged_in_user is None:
         print("No user is currently logged in.")
         return
+
+    logs = load_logs()
+    log_login(logs, logged_in_user["username"], "Logout")
 
     print(f"Goodbye, {logged_in_user['username']}")
 
@@ -219,6 +231,9 @@ def change_password(users):
             break
 
     save_users(users)
+
+    logs = load_logs()
+    log_activity(logs, logged_in_user["username"], "Changed Password")
 
     print("Password Changed Successfully.")
 
@@ -434,7 +449,7 @@ def import_users_csv():
     except Exception as error:
         print(f"Error importing users: {error}")
         return load_users()
-                
+
 # Menu
 def authentication_menu():
 
