@@ -1,0 +1,4 @@
+Username,Email,Password,Role,Created At
+Sumitra,85@gmail.com,f3321dd735002cb4a082698910ddfb4926763619e606d0d4e185a47b16802213,Admin,2026-07-21
+Su,67@gmail.com,b8c167ca7b87852a6f2c68eced2c091a2fbce01df7d52de37042cd15837b2157,Teacher,2026-07-21
+Sum,sum@gmail.com,dddcf6925bdf77e0dbf5a42ce46096562543fdb3b37eef669975d5e18a9bf9f1,Student,2026-07-21

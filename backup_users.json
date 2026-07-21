@@ -1,0 +1,23 @@
+[
+    {
+        "username": "Sumitra",
+        "email": "85@gmail.com",
+        "password": "f3321dd735002cb4a082698910ddfb4926763619e606d0d4e185a47b16802213",
+        "role": "Admin",
+        "created_at": "2026-07-21"
+    },
+    {
+        "username": "Su",
+        "email": "67@gmail.com",
+        "password": "b8c167ca7b87852a6f2c68eced2c091a2fbce01df7d52de37042cd15837b2157",
+        "role": "Teacher",
+        "created_at": "2026-07-21"
+    },
+    {
+        "username": "Sum",
+        "email": "sum@gmail.com",
+        "password": "dddcf6925bdf77e0dbf5a42ce46096562543fdb3b37eef669975d5e18a9bf9f1",
+        "role": "Student",
+        "created_at": "2026-07-21"
+    }
+]
