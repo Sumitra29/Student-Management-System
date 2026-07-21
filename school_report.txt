@@ -1,0 +1,30 @@
+=========================================
+     STUDENT MANAGEMENT SYSTEM REPORT
+=========================================
+
+STUDENT REPORT
+------------------------------
+Total Students : 4
+
+ATTENDANCE REPORT
+------------------------------
+Total Records : 3
+Present       : 2
+Absent        : 1
+
+MARKS REPORT
+------------------------------
+Highest Total : 75.0
+Lowest Total  : 56.0
+Average Total : 66.75
+
+GPA REPORT
+------------------------------
+Highest GPA : 2.50
+Lowest GPA  : 1.87
+Average GPA : 2.23
+
+TEACHER REPORT
+------------------------------
+Total Teachers : 2
+
