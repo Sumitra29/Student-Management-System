@@ -8,6 +8,7 @@ from users import authentication_menu
 from system_logs import logging_menu
 from reports import reports_menu
 from statistics import statistics_menu
+from database import database_menu
 
 while True:
     print("\n===== Student Management System =====")
@@ -21,7 +22,8 @@ while True:
     print("8. Logging Module")
     print("9. Reports Module")
     print("10. Statistics Module")
-    print("11. Exit")
+    print("11. Database Module")
+    print("12. Exit")
 
     choice = input("Enter Choice: ")
 
@@ -56,6 +58,9 @@ while True:
         statistics_menu()
 
     elif choice == "11":
+        database_menu()
+
+    elif choice == "12":
         print("Thank You")
         break
 
